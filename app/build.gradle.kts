@@ -57,6 +57,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    //Penambahan dependencies untuk library yang digunakan dalam project
     implementation(libs.navigation.compose)
     implementation(libs.coil.compose)
+    implementation(libs.accompanist.insets)
 }
