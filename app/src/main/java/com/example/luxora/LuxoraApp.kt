@@ -63,7 +63,7 @@ fun LuxoraApp(
                 .windowInsetsPadding(WindowInsets.systemBars),
             topBar = {
                 TopBar(
-                    title = "Home",
+                    title = title,
                     showBackButton = currentRoute == "detail/{itemType}/{itemId}",
                     onBackPressed = { navController.popBackStack() }
                 )
