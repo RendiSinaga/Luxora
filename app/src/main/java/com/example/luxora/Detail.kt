@@ -158,14 +158,14 @@ private fun DetailInfoRow(label: String, value: String) {
     ) {
         Text(
             text = "$label:",
-            fontWeight = FontWeight.SemiBold,
-            fontSize = 14.sp,
+            fontWeight = FontWeight.Bold,
+            fontSize = 16.sp,
             color = Gunmetal
         )
         Text(
             text = value,
-            fontSize = 14.sp,
-            fontWeight = FontWeight.SemiBold,
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
             color = Color.Black,
             modifier = Modifier.padding(start = 8.dp)
         )
