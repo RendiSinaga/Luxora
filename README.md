@@ -1,6 +1,6 @@
-# Luxora - Aplikasi Mobile Sederhana
+# Luxxora - Aplikasi Mobile Sederhana
 
-Luxora adalah aplikasi mobile sederhana yang menawarkan pengalaman belanja dengan kategori produk dan game. Berikut adalah tampilan antarmuka dari aplikasi Luxora yang terdiri dari berbagai halaman untuk menjelajah produk, game, dan informasi lainnya.
+Luxxora adalah aplikasi mobile sederhana yang menawarkan pengalaman belanja dengan kategori produk dan game. Berikut adalah tampilan antarmuka dari aplikasi Luxora yang terdiri dari berbagai halaman untuk menjelajah produk, game, dan informasi lainnya.
 
 ## Tampilan Aplikasi
 
