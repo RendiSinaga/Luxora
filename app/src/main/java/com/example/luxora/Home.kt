@@ -225,17 +225,19 @@ fun ProductCards(product: Product, onClick: (Int) -> Unit) {
                 contentScale = ContentScale.Fit,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(90.dp)
+                    .height(80.dp)
             )
 
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
                 text = product.name,
-                fontSize = 16.sp,
+                fontSize = 14.sp,
                 color = Color(0xFF333333),
                 fontWeight = FontWeight.Bold,
-                modifier = Modifier.align(Alignment.CenterHorizontally)
+                modifier = Modifier
+                    .align(Alignment.CenterHorizontally)
+                    .weight(1f)
             )
 
             Spacer(modifier = Modifier.height(8.dp))
@@ -248,6 +250,7 @@ fun ProductCards(product: Product, onClick: (Int) -> Unit) {
                 modifier = Modifier
                     .height(25.dp)
                     .fillMaxWidth()
+                    .weight(1f)
             ) {
                 Text(
                     text = "Lihat Detail",
